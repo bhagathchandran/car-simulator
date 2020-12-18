@@ -22,12 +22,12 @@ function draw() {
 
     if(deformation < 180 && deformation >100)
     {
-      wall.shapeColor = ("green");
+      bullet.shapeColor = ("green");
     }
 
     if(deformation < 100)
     {
-      wall.shapeColor = ("red");
+      bullet.shapeColor = ("red");
     }
   }
   drawSprites();
